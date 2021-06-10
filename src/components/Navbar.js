@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Navbar.css";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTerminal } from "@fortawesome/free-solid-svg-icons";
 
@@ -11,18 +13,25 @@ function Navbar() {
 			<div className="navbar-container">
 				<Link to="/" className="navbar-logo">
 					Bethany Shelton
-					<FontAwesomeIcon icon={faTerminal} />
+					<FontAwesomeIcon className="terminal" icon={faTerminal} />
 				</Link>
-				<ul>
-					<Link to="/projects" className="links">
-						PROJECTS
-					</Link>
-					<Link to="/about" className="links">
-						ABOUT
-					</Link>
-					<Link to="/contact" className="links">
-						CONTACT
-					</Link>
+				<div className="menu-icon"></div>
+				<ul className="nav-menu">
+					<li className="nav-item">
+						<Link to="/projects" className="nav-links">
+							PROJECTS
+						</Link>
+					</li>
+					<li className="nav-item">
+						<Link to="/about" className="nav-links">
+							ABOUT
+						</Link>
+					</li>
+					<li className="nav-item">
+						<Link to="/contact" className="nav-links">
+							CONTACT
+						</Link>
+					</li>
 				</ul>
 			</div>
 		</nav>
