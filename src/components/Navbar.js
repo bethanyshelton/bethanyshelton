@@ -1,11 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./Navbar.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTerminal } from "@fortawesome/free-solid-svg-icons";
-
-import { Link } from "react-router-dom";
 
 function Navbar() {
 	return (
