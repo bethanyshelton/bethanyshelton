@@ -1,6 +1,5 @@
 import React from "react";
 
-import "../App.css";
 import "./Projects.css";
 
 import ProjectCard from "./ProjectCard";
@@ -13,35 +12,35 @@ function Projects() {
 				<div className="card-container">
 					<ul className="card-row">
 						<ProjectCard
-							src="images/img-9.jpg"
+							src="images/img-2.jpg"
 							title="Recipe App"
 							category="Flutter"
 							path="/services"
 						/>
 						<ProjectCard
 							src="images/img-2.jpg"
-							text="Pill Reminder"
-							label="React"
+							title="Pill Reminder"
+							category="React"
 							path="/services"
 						/>
 					</ul>
 					<ul className="card-row">
 						<ProjectCard
-							src="images/img-3.jpg"
-							text="Google look-a-like"
-							label="HTML"
+							src="images/img-2.jpg"
+							title="Google look-a-like"
+							category="HTML"
 							path="/services"
 						/>
 						<ProjectCard
-							src="images/img-4.jpg"
-							text="Something"
-							label="Next.js"
+							src="images/img-2.jpg"
+							title="Something"
+							category="Next.js"
 							path="/products"
 						/>
 						<ProjectCard
-							src="images/img-8.jpg"
-							text="Somewhere"
-							label="Next.js"
+							src="images/img-2.jpg"
+							title="Somewhere"
+							category="Next.js"
 							path="/sign-up"
 						/>
 					</ul>
