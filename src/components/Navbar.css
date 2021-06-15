@@ -62,8 +62,8 @@
 }
 
 .nav-links:hover {
-	border-bottom: 4px solid #f0edee;
-	transition: all 0.2s ease-out;
+	border-bottom: 3px solid #f0edee;
+	transition: all 0.3s ease-out;
 }
 
 @media only screen and (min-width: 1800px) {
