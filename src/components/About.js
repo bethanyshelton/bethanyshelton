@@ -1,6 +1,7 @@
 import React from "react";
 
 import "../App.css";
+import "./About.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -28,26 +29,26 @@ function About() {
 				</p>
 			</div>
 			<div className="skills">
-				<h2>Here are the skills I have learned:</h2>
+				<h2>These are some of my favorite skills:</h2>
 				<ul className="skills-list">
 					<li className="skills-list-item">
-						<FontAwesomeIcon className="html5" icon={faHtml5} />
+						<FontAwesomeIcon className="icon" icon={faHtml5} />
 						HTML5
 					</li>
 					<li className="skills-list-item">
-						<FontAwesomeIcon className="Javascript" icon={faJsSquare} />
+						<FontAwesomeIcon className="icon" icon={faJsSquare} />
 						Javascript
 					</li>
 					<li className="skills-list-item">
-						<FontAwesomeIcon className="css3" icon={faCss3Alt} />
+						<FontAwesomeIcon className="icon" icon={faCss3Alt} />
 						CSS3
 					</li>
 					<li className="skills-list-item">
-						<FontAwesomeIcon className="nodejs" icon={faNodeJs} />
+						<FontAwesomeIcon className="icon" icon={faNodeJs} />
 						NodeJS
 					</li>
 					<li className="skills-list-item">
-						<FontAwesomeIcon className="bootstrap" icon={faBootstrap} />
+						<FontAwesomeIcon className="icon" icon={faBootstrap} />
 						Bootstrap
 					</li>
 				</ul>
