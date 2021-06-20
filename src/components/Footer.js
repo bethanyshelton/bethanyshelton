@@ -4,6 +4,7 @@ function Footer() {
 	return (
 		<div>
 			<p>Video by Kelly Lacy from Pexels</p>
+			<p>Photo by Tim Mossholder from Pexels</p>
 		</div>
 	);
 }

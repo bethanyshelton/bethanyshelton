@@ -30,3 +30,9 @@ video {
 	font-size: 35px;
 	margin-top: 20px;
 }
+
+.scroll {
+	position: absolute;
+	bottom: 20px;
+	margin: 0 auto;
+}
