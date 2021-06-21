@@ -1,0 +1,37 @@
+.contact {
+	background-color: #0f0423;
+	color: #f0edee;
+	display: flex;
+	flex-direction: column;
+	padding: 4rem;
+	font-size: 1.1rem;
+}
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	padding-top: 4rem;
+}
+
+.input-box {
+	width: 400px;
+	height: 2.5rem;
+	margin: 5px auto;
+	border: none;
+	border-radius: 2px;
+	font-size: 1rem;
+}
+
+button {
+	background-color: #59c0c5;
+	cursor: pointer;
+	color: #f0edee;
+}
+
+.icon {
+	margin-left: 5px;
+}
+
+button:hover {
+	background-color: #50adb1;
+}
