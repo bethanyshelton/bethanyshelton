@@ -1,0 +1,41 @@
+.footer {
+	background-color: #0f0423;
+	color: #f0edee;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
+	padding-bottom: 15px;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 1500px;
+}
+
+.copyright {
+	justify-self: start;
+	/* margin-left: 20px; */
+	display: flex;
+	align-items: center;
+}
+
+.name {
+	font-family: "Montez", cursive;
+	font-size: 1.5rem;
+	margin-left: 5px;
+}
+
+.social {
+	font-size: 2rem;
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	grid-gap: 15px;
+	text-align: center;
+	width: 50vmax;
+	justify-content: end;
+	/* margin-right: 20px; */
+	padding: 0;
+}
