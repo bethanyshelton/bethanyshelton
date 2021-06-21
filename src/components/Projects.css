@@ -4,7 +4,7 @@
 	padding: 4rem;
 	display: flex;
 	flex-direction: column;
-	border-bottom: 1px solid #59c0c5;
+	border-bottom: 3px double #59c0c5;
 }
 
 h1 {
@@ -16,7 +16,6 @@ h1 {
 	display: flex;
 	flex-flow: column;
 	align-items: center;
-	max-width: 1120px;
 }
 
 .card-container {
@@ -34,14 +33,14 @@ h1 {
 .project-card {
 	display: flex;
 	flex: 1;
-	margin: 1rem 1rem;
+	margin: 1.5rem 1.5rem;
 }
 
 .card-link {
 	display: flex;
 	flex-flow: column;
 	width: 100%;
-	box-shadow: 0 2px 12px rgba(15, 4, 35, 0.5);
+	box-shadow: 0 2px 12px rgba(15, 4, 35, 0.4);
 	border-radius: 2px;
 	overflow: hidden;
 	text-decoration: none;
@@ -50,22 +49,26 @@ h1 {
 .card-pic-container {
 	position: relative;
 	width: 100%;
-	padding-top: 67%;
+	padding-top: 70%;
 	overflow: hidden;
 }
 
 .card-pic-container::after {
 	content: attr(category);
 	position: absolute;
-	bottom: 0;
-	left: 20px;
-	border-top-right-radius: 5px;
-	border-top-left-radius: 5px;
-	padding: 6px 8px;
-	font-size: 12px;
-	font-weight: 700;
+	bottom: 1rem;
+	right: 1rem;
+	width: 6rem;
+	height: 2.5rem;
+	border-radius: 50px/50px;
+	font-size: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	background-color: #59c0c5;
-	color: #0f0423;
+	color: #f0edee;
+	text-shadow: 1px 1px 5px #357376;
 }
 
 .card-pic {
@@ -88,12 +91,12 @@ h1 {
 }
 
 .card-info {
-	padding: 20px 30px;
+	padding: 1rem 1.5rem;
 }
 
 .card-title {
 	color: #0f0423;
-	font-size: 18px;
+	font-size: 1.2rem;
 	line-height: 24px;
 }
 

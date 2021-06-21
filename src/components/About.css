@@ -4,11 +4,13 @@
 	padding: 4rem;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	font-size: 1.1rem;
 }
 
 .bio {
 	margin-bottom: 3rem;
+	max-width: 1200px;
 }
 
 .bio h1 {
@@ -28,13 +30,12 @@
 }
 
 .skills-list {
-	width: 50%;
-	margin-left: 25%;
+	/* width: 50%;
+	margin-left: 25%; */
 	list-style: none;
 	display: grid;
 	align-items: center;
 	grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
-	text-align: left;
 }
 
 .skills-list-item {

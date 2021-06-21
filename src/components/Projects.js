@@ -8,7 +8,7 @@ import ProjectCard from "./ProjectCard";
 function Projects() {
 	return (
 		<div className="projects">
-			<h1>Check out my latest projects</h1>
+			<h1>Check out my latest projects:</h1>
 			<div className="project-container">
 				<div className="card-container">
 					<ul className="card-row">

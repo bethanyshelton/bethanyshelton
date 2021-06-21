@@ -17,7 +17,6 @@
 
 .copyright {
 	justify-self: start;
-	/* margin-left: 20px; */
 	display: flex;
 	align-items: center;
 }
@@ -36,6 +35,13 @@
 	text-align: center;
 	width: 50vmax;
 	justify-content: end;
-	/* margin-right: 20px; */
 	padding: 0;
+}
+
+.icon {
+	color: #f0edee;
+}
+
+.icon:hover {
+	color: #59c0c5;
 }

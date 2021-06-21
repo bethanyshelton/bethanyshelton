@@ -20,10 +20,19 @@
 	border: none;
 	border-radius: 2px;
 	font-size: 1rem;
+	outline: none;
 }
 
-input[type="textarea"] {
-	height: 8rem;
+.text-area {
+	height: 10rem;
+	resize: none;
+	overflow: auto;
+	padding: 10px;
+	text-align: left;
+}
+
+.text-area::placeholder {
+	text-align: center;
 }
 
 button {

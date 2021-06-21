@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 import "./Footer.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -19,9 +21,15 @@ function Footer() {
 					&copy; {currentYear} <span className="name"> Bethany Shelton</span>
 				</p>
 				<div className="social">
-					<FontAwesomeIcon className="icon" icon={faGithubSquare} />
-					<FontAwesomeIcon className="icon" icon={faLinkedin} />
-					<FontAwesomeIcon className="icon" icon={faTwitterSquare} />
+					<Link to="https://github.com/bethanyshelton">
+						<FontAwesomeIcon className="icon" icon={faGithubSquare} />
+					</Link>
+					<Link to="/">
+						<FontAwesomeIcon className="icon" icon={faLinkedin} />
+					</Link>
+					<Link to="/">
+						<FontAwesomeIcon className="icon" icon={faTwitterSquare} />
+					</Link>
 				</div>
 			</div>
 		</div>

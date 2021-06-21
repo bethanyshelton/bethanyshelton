@@ -23,10 +23,10 @@ function Contact() {
 					placeholder="Your Email"
 					required
 				/>
-				<input
-					className="input-box"
-					type="textarea"
+				<textarea
+					className="input-box text-area"
 					placeholder="Message"
+					rows={8}
 					required
 				/>
 				<button className="input-box" type="submit">
